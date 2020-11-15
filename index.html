@@ -3,9 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sistema Escolar</title>
+    <link rel="stylesheet" href="stilo.css">
 </head>
 <body>
-    <h1>Hola samuel</h1>
+    <main class="contenido-principal">
+        <header>
+            <h1>Sistema de Control Escolar</h1>
+            <span>15/11/2020</span><span>Hora: 02:56p.m.</span>
+        </header>
+        <main class="cuerpo">
+            <section class="menu">
+                <ul class="lista-menu">
+                    <li>Registar Alumnos</li>
+                    <li>Docentes</li>
+                    <li>Niveles</li>
+                    <li>Grados y Grupos</li>
+                    <li>Matriculas</li>
+                    <li>Calificaciones</li>
+                    <li>Asistencia</li>
+                    <li>Agenda</li>
+                    <li>Pagos</li>
+                    <li>Personal Administrativo</li>
+                </ul>
+            </section>
+            <section class="contenido-cuerpo">
+                <section class="sub-contenido">
+                    <section class="regitro-alumnos">
+                        <h2>Agregar Alumno</h2>
+                        <section class="datos-alumno">
+                            <p>
+                                <label for="curp">CURP</label>
+                                <input id="curp" type="text" placeholder="CURP">
+                            </p>
+                            <p>
+                                <label for="cuenta">Número de cuenta</label>
+                                <input id="cuenta" type="text" placeholder="#######">
+                            </p>
+                            <p>
+                                <label for="nombre">Nombre(s)</label>
+                                <input id="nombre" type="text" placeholder="Nombre(s)">
+                            </p>
+                            <p>
+                                <label for="ap-pat">Primer apellido</label>
+                                <input id="ap-pat" type="text" placeholder="Primer apellido">
+                            </p>
+                            <p>
+                                <label for="ap-mat">Segundo apellido</label>
+                                <input id="ap-mat" type="text" placeholder="Segundo apellido">
+                            </p>
+
+                            <p>
+                                <label for="num-acta">Número de acta nacimiento</label>
+                                <input id="num-acta" type="text" placeholder="">
+                            </p>
+                            <p>
+                                <label for="fecha">Fecha de nacimiento</label>
+                                <input id="fecha" type="date" placeholder="">
+                            </p>
+                        </section>
+                        <section class="plan-estudio"></section>
+                        <section class="info-academica"></section>
+                    </section>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <pre>&copy; Autor: Samuel Hernandez</pre>
+        </footer>
+    </main>
 </body>
 </html>
